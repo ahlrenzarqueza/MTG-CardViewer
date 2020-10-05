@@ -3,11 +3,11 @@ import styled, { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from './styles/Themes';
 import { GlobalStyles } from './styles/GlobalStyles';
 
-import MtgApi from "./MtgApi";
-import Button from "./Button";
-import Card from "./Card";
-import Loader from "./Loader";
-import Toggle from "./Toggle";
+import MtgApi from "./api/MtgApi";
+import Button from "./components/Button";
+import Card from "./components/Card";
+import Loader from "./components/Loader";
+import Toggle from "./components/Toggle";
 
 import styles from "./App.module.css";
 import "./thirdparty-src/css/mana.min.css";

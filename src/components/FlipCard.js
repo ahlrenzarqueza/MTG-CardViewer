@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import styled, {keyframes, css} from 'styled-components';
-import backImage from './assets/Magic-Card-Back.jpg';
+import backImage from '../assets/Magic-Card-Back.jpg';
 
 const flipAnimation = keyframes`
   from {
