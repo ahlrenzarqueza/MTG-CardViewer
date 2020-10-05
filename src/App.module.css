@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.appheader {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  justify-content: flex-end;
+  padding: 2mm 4mm;
+}
+
+.appheader > span {
+  font-size: 12px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.cardviewcont {
+  position: relative;
+  width: 80%;
+  min-width: 320px;
+  transition: filter 0.5s ease-out;
+}
+
+.cardloading {
+  opacity: 0.5;
+}
+
+.loader {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 2
+}

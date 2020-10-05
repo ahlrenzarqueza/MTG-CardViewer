@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    padding: 2mm;
+}
+
+.cardimgcont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2mm;
+    flex-basis: 300px;
+    min-width: 300px;
+}
+
+.cardimg {
+    width: 100%;
+    object-fit: contain;
+}
+
+.carddetailcont {
+    flex-grow: 3;
+    padding: 2mm;
+    overflow: auto;
+}
+
+.carddetailheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardtext {
+    white-space: pre-wrap;
+    line-height: 20px;
+}
